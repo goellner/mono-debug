@@ -7,7 +7,7 @@ export default function Store(props: Props) {
   console.warn("Hey! This is Home.", props.data)
   return (
     <div>
-      <h1>Store</h1>
+      <h1>Store Test</h1>
       {props.data.map((el: any) => (
         <div key={el.id}>{el.dummy}</div>
       ))}
